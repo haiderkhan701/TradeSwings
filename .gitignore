@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Node
+node_modules/
+.next/
+out/
+coverage/
+dist/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.token
+
+# Local tooling
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+frontend/AGENTS.md
+frontend/CLAUDE.md
+
+# Runtime data
+logs/
+tmp/
